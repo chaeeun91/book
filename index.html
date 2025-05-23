@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>책 목록 페이지</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1 class="page-title">📚 Book List</h1>
+
+     <!-- 검색 입력 + 버튼 -->
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="책 제목 또는 저자 검색..." />
+  <button id="searchBtn" aria-label="검색">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+    <path d="M10 2a8 8 0 015.29 13.71l5 5a1 1 0 01-1.42 1.42l-5-5A8 8 0 1110 2zm0 2a6 6 0 100 12 6 6 0 000-12z"/>
+  </svg>
+</button>
+</div>
+
+    
+  <!-- 카테고리 메뉴 -->
+  <nav class="navbar">
+    <a href="#">좋아요</a>
+    <a href="#">소설</a>
+    <a href="#">에세이</a>
+    <a href="#">자기계발</a>
+    <a href="#">과학</a>
+  </nav>
+
+  
+
+  <!-- 책 카드 목록 -->
+  <section class="book-container">
+    <!-- 예시 카드 1 -->
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/9751/78/cover500/8982816631_3.jpg" alt="책 표지">
+      <div class="info">
+        <h3>자기앞의 생</h3>
+        <p>에밀 아자르 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    <!-- 예시 카드 2 -->
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/28465/73/cover500/k092835920_2.jpg" alt="책 표지">
+      <div class="info">
+        <h3>물고기는 존재하지 않는다</h3>
+        <p>룰루 밀러 / 과학</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+
+<div class="book-card">
+      <img src="https://image.aladin.co.kr/product/27587/94/cover500/8954681158_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>홍학의 자리</h3>
+        <p>정해연 / 추리소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+    
+    <!-- 예시 카드 3 -->
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/31797/33/cover500/k882833214_2.jpg" alt="책 표지">
+      <div class="info">
+        <h3>세이노의 가르침</h3>
+        <p>세이노(SayNo) / 자기계발</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/31561/46/cover500/k782832854_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>구의 증명</h3>
+        <p>최진영 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/27541/91/cover500/k312835925_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>밝은 밤</h3>
+        <p>최은영 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/29137/2/cover500/8936434594_2.jpg" alt="책 표지">
+      <div class="info">
+        <h3>채식주의자</h3>
+        <p>한강 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+    
+     <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/34709/85/cover500/k242933119_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>파과</h3>
+        <p>구병모 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/17048/25/cover500/8932473900_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>이기적 유전자</h3>
+        <p>리처드 도킨스 / 과학</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/30276/23/cover500/8936438867_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>아주 오랜만에 행복하다는 느낌</h3>
+        <p>백수린 / 에세이</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/20945/79/cover500/s652933016_2.jpg" alt="책 표지">
+      <div class="info">
+        <h3>데일 카네기 인간 관계론</h3>
+        <p>데일 카네기 / 자기계발</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://image.aladin.co.kr/product/14798/82/cover500/8998274159_1.jpg" alt="책 표지">
+      <div class="info">
+        <h3>살인카드 게임임</h3>
+        <p>제임스 패터슨 / 소설</p>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+
+    
+  </section>
+  
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const searchBtn = document.getElementById("searchBtn");
+    const searchInput = document.getElementById("searchInput");
+    const bookCards = document.querySelectorAll(".book-card");
+    const navLinks = document.querySelectorAll(".navbar a");
+
+    // 책 제목 가져오는 함수
+    const getBookTitle = (card) => card.querySelector("h3").textContent;
+
+    // 좋아요 저장/불러오기 위한 로컬스토리지 키
+    const STORAGE_KEY = "likedBooks";
+
+    // 초기 좋아요 상태 복원
+    const loadLikedBooks = () => {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      bookCards.forEach(card => {
+        const title = getBookTitle(card);
+        const heart = card.querySelector(".heart");
+        if (saved.includes(title)) {
+          heart.classList.add("liked");
+          heart.textContent = "♥";
+        }
+      });
+    };
+
+    // 좋아요 상태 저장
+    const saveLikedBooks = () => {
+      const likedTitles = Array.from(document.querySelectorAll(".heart.liked")).map(heart =>
+        getBookTitle(heart.closest(".book-card"))
+      );
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(likedTitles));
+    };
+
+    // 좋아요 버튼 클릭 이벤트
+    document.querySelectorAll(".heart").forEach(heart => {
+      heart.addEventListener("click", () => {
+        heart.classList.toggle("liked");
+        heart.textContent = heart.classList.contains("liked") ? "♥" : "♡";
+        saveLikedBooks(); // 상태 저장
+      });
+    });
+
+    // 검색 수행 함수
+    const searchBooks = () => {
+      const keyword = searchInput.value.trim().toLowerCase();
+      bookCards.forEach(card => {
+        const title = card.querySelector("h3").textContent.toLowerCase();
+        const author = card.querySelector("p").textContent.toLowerCase();
+        const match = title.includes(keyword) || author.includes(keyword);
+        card.style.display = match ? "block" : "none";
+      });
+    };
+
+    // 검색 버튼 클릭
+    searchBtn.addEventListener("click", searchBooks);
+
+    // Enter 키 입력 시 검색
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        searchBooks();
+      }
+    });
+
+    // 카테고리 메뉴 클릭 이벤트
+    navLinks.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const category = link.textContent.trim();
+        bookCards.forEach(card => {
+          const infoText = card.querySelector("p").textContent;
+          const genre = infoText.split("/")[1]?.trim();
+          const heart = card.querySelector(".heart");
+
+          if (category === "좋아요") {
+            card.style.display = heart.classList.contains("liked") ? "block" : "none";
+          } else {
+            card.style.display = genre === category ? "block" : "none";
+          }
+        });
+      });
+    });
+
+    // 페이지 로드시 좋아요 복원
+    loadLikedBooks();
+  });
+</script>
+
+</body>
+</html>
